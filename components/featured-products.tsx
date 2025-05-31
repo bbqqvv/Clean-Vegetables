@@ -8,19 +8,19 @@ export function FeaturedProducts() {
     {
       name: "Rau Cải Xanh",
       description: "Tươi ngon, giòn ngọt, thu hoạch hàng ngày",
-      image: "/placeholder.svg?height=250&width=350",
+      image: "/images/raucaixanh.png",
       badge: "Bán chạy nhất",
     },
     {
       name: "Cà Chua",
       description: "Chín tự nhiên, ngọt thanh, đỏ đều",
-      image: "/placeholder.svg?height=250&width=350",
+      image: "/images/cachua.png",
       badge: "Tươi ngon",
     },
     {
       name: "Rau Thơm",
       description: "Ngò, húng quế, hành lá... đa dạng loại",
-      image: "/placeholder.svg?height=250&width=350",
+      image: "/images/rauthom.png",
       badge: "Thơm tự nhiên",
     },
   ]
@@ -49,9 +49,11 @@ export function FeaturedProducts() {
                 <p className="text-gray-600 mb-4">{product.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-green-600">Liên hệ giá</span>
-                  <Button size="sm" className="bg-green-600 hover:bg-green-700">
-                    Đặt hàng
-                  </Button>
+                  <Link href="/lien-he" className="inline-flex items-center">
+                    <Button size="sm" className="bg-green-600 hover:bg-green-700">
+                      0966467356
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>

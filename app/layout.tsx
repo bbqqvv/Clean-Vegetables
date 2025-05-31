@@ -3,8 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Xà lách Ninh Hòa',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Trang web chính thức của Xà lách Ninh Hòa',
 }
 
 export default function RootLayout({

@@ -36,14 +36,14 @@ export default function ProductsPage() {
           <p className="text-xl mb-8">Liên hệ ngay để được tư vấn và báo giá chi tiết</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0987123456"
+              href="tel: 0966467356"
               className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              📞 Gọi: 0987 123 456
+              📞 Gọi: 0966467356
             </a>
             <a
-              href="https://zalo.me/0987123456"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              href="https://zalo.me/0966467356"
+              className="bg-blue-600 text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               💬 Chat Zalo
             </a>

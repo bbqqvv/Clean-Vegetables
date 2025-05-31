@@ -206,7 +206,7 @@ export default function PostDetailPage({ params }: { params: { slug: string } })
               <p className="mb-6">Liên hệ ngay với chúng tôi để được tư vấn và đặt hàng</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button className="bg-white text-green-600 hover:bg-gray-100">📞 Gọi: 0987 123 456</Button>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-green-600">
+                <Button variant="outline" className="border-white text-green-600 hover:bg-white hover:text-green-600">
                   💬 Chat Zalo
                 </Button>
               </div>

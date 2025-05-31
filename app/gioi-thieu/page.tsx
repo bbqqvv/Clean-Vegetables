@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/cauchuyen.png"
                 alt="Ba mẹ bên vườn rau"
                 width={600}
                 height={500}
@@ -38,7 +38,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-700 text-lg">
                 <p>
                   Năm 2004, với đôi tay trần và tấm lòng yêu thiên nhiên, ba mẹ tôi bắt đầu canh tác trên mảnh đất nhỏ
-                  sau nhà tại xã Vĩnh Hiệp. Những ngày đầu, không có kinh nghiệm, không có máy móc, chỉ có sự kiên trì
+                  sau nhà tại xã Ninh Hòa. Những ngày đầu, không có kinh nghiệm, không có máy móc, chỉ có sự kiên trì
                   và niềm tin vào con đường mình đã chọn.
                 </p>
                 <p>

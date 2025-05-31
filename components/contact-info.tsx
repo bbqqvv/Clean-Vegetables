@@ -20,9 +20,9 @@ export function ContactInfo() {
     {
       icon: Mail,
       title: "Email",
-      value: "rausach.giadinh@gmail.com",
+      value: "xalachninhhoa.giadinh@gmail.com",
       description: "Gửi email cho chúng tôi",
-      action: "mailto:rausach.giadinh@gmail.com",
+      action: "mailto:xalachninhhoa.giadinh@gmail.com",
     },
   ]
 

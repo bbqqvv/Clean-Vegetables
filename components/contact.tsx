@@ -104,7 +104,7 @@ export function Contact() {
                 </Button>
 
                 <Button
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-green py-3 text-lg"
                   onClick={() => window.open("https://zalo.me/0987123456")}
                 >
                   <MessageCircle className="w-5 h-5 mr-2" />

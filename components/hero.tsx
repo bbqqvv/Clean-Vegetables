@@ -45,7 +45,7 @@ export function Hero() {
 
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=600&width=700"
+              src="/images/hero-image.png"
               alt="Vườn rau sạch tươi xanh"
               width={700}
               height={600}

@@ -34,21 +34,21 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-green-800 mb-4">Vị Trí Vườn Rau</h2>
-            <p className="text-gray-600">Xã Vĩnh Hiệp, Huyện Gò Quao, Tỉnh Kiên Giang</p>
+            <p className="text-gray-600">Ninh Đa - Ninh Hòa - Khánh Hòa</p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <div className="text-4xl mb-4">🗺️</div>
-                <p className="text-lg font-semibold">Bản đồ vị trí vườn rau</p>
-                <p className="text-sm">Xã Vĩnh Hiệp, Huyện Gò Quao, Tỉnh Kiên Giang</p>
-              </div>
-            </div>
+          <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+            <iframe
+              className="w-full h-full border-0"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3524.9610183435752!2d109.13587507615085!3d12.502320193488941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDMwJzA4LjMiTiAxMDnCsDA4JzI2LjciRQ!5e1!3m2!1svi!2s!4v1748679205858!5m2!1svi!2s"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
-      </section>
+      </section >
 
       <Footer />
-    </div>
+    </div >
   )
 }

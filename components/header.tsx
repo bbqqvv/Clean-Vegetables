@@ -28,8 +28,8 @@ export function Header() {
               <span className="text-white font-bold text-lg">🌱</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-green-800">Rau Sạch Gia Đình</h1>
-              <p className="text-sm text-green-600">Vĩnh Hiệp - Gò Quao - Kiên Giang</p>
+              <h1 className="text-xl font-bold text-green-800">Xà lách Ninh Hòa</h1>
+              <p className="text-sm text-green-600">Ninh Đa - Ninh Hòa - Khánh Hòa</p>
             </div>
           </Link>
 
@@ -39,16 +39,15 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`transition-colors ${
-                  pathname === item.href ? "text-green-600 font-semibold" : "text-gray-700 hover:text-green-600"
-                }`}
+                className={`transition-colors ${pathname === item.href ? "text-green-600 font-semibold" : "text-gray-700 hover:text-green-600"
+                  }`}
               >
                 {item.name}
               </Link>
             ))}
             <Button className="bg-green-600 hover:bg-green-700">
               <Phone className="w-4 h-4 mr-2" />
-              0987 123 456
+              0966467356
             </Button>
           </nav>
 
@@ -66,9 +65,8 @@ export function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`text-left transition-colors ${
-                    pathname === item.href ? "text-green-600 font-semibold" : "text-gray-700 hover:text-green-600"
-                  }`}
+                  className={`text-left transition-colors ${pathname === item.href ? "text-green-600 font-semibold" : "text-gray-700 hover:text-green-600"
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -76,7 +74,7 @@ export function Header() {
               ))}
               <Button className="bg-green-600 hover:bg-green-700 w-fit">
                 <Phone className="w-4 h-4 mr-2" />
-                0987 123 456
+                0966467356
               </Button>
             </div>
           </nav>

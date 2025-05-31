@@ -16,10 +16,9 @@ export function Hero() {
               <span className="block text-green-600">Từ Vườn Nhà</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-              Chúng tôi là gia đình nông dân tại Kiên Giang, với hơn 20 năm kinh nghiệm trồng rau sạch. Mỗi ngày, chúng
+              Chúng tôi là gia đình nông dân tại Ninh Hòa, với hơn 30 năm kinh nghiệm trồng rau sạch. Mỗi ngày, chúng
               tôi chăm sóc vườn rau bằng tình yêu và tâm huyết, mang đến cho bạn những sản phẩm tươi ngon, an toàn nhất.
             </p>
-
             <div className="flex flex-wrap gap-4 mb-8">
               <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">🌿 100% Tự Nhiên</span>
               <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">
@@ -33,7 +32,7 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
                 <Phone className="w-5 h-5 mr-2" />
-                Đặt hàng: 0987 123 456
+                Đặt hàng: 0966467356
               </Button>
               <Button size="lg" variant="outline" className="border-green-600 text-green-600 hover:bg-green-50" asChild>
                 <Link href="/san-pham">
@@ -58,7 +57,7 @@ export function Hero() {
                   <span className="text-2xl">🏆</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-green-800">20+ Năm Kinh Nghiệm</p>
+                  <p className="font-semibold text-green-800">30+ Năm Kinh Nghiệm</p>
                   <p className="text-sm text-gray-600">Được khách hàng tin tưởng</p>
                 </div>
               </div>
